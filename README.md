@@ -8,5 +8,5 @@ To get set up with the storedom application, clone it
 via `git` and pull in gem dependencies with `bundler`:
 
 ```
-bundle exec rake db:{create,setup}
+bundle exec rails db:{create,migrate,seed}
 ```
