@@ -5,8 +5,8 @@ Storedom is a simplistic e-commerce application used for various lessons and tut
 ### Setup
 
 To get set up with the storedom application, clone it
-via `git` and pull in gem dependencies with `bundler`:
+via `git` and pull in gem dependencies with `bundle`:
 
-```
+```bash
 bundle exec rails db:{create,migrate,seed}
 ```

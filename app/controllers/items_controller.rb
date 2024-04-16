@@ -5,5 +5,6 @@ class ItemsController < ApplicationController
 
   def show
     @item = Item.find(params[:id])
+    @location = IpLocationService.get_location
   end
 end
